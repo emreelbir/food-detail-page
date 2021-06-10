@@ -21,3 +21,20 @@
   border-radius: 4px;
   color: white;
 }
+
+.app__submit:hover{
+  padding:6px 16px;
+  margin-left:6px;
+  background-color: white;
+  border:2px solid black;
+  border-radius: 4px;
+  color: brown;
+  cursor:pointer;
+}
+
+.app__recipes{
+  margin-top: 24px;
+  display:grid;
+  grid-template-columns: 350px 350px;
+  align-items: baseline;
+}
